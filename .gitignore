@@ -1,6 +1,6 @@
-ilk
-obj
-exe
-pdb
+*.ilk
+*.obj
+*.exe
+*.pdb
 .vscode
-xlsx
+*.xlsx
