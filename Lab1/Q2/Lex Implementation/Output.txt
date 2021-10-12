@@ -1,0 +1,120 @@
+Delimiter: {
+(Non token) Newline
+Keyword: int
+(Non token) Single Space
+This is an dentifier: a
+Delimiter: [
+This is a constant: 3
+Delimiter: ]
+Delimiter: ,
+This is an dentifier: t1
+Delimiter: ,
+This is an dentifier: t2
+Delimiter: ;
+(Non token) Newline
+This is an dentifier: t1
+Operator: =
+This is a constant: 2
+Delimiter: ;
+(Non token) Newline
+This is an dentifier: a
+Delimiter: [
+This is a constant: 0
+Delimiter: ]
+Operator: =
+This is a constant: 1
+Delimiter: ;
+(Non token) Newline
+This is an dentifier: a
+Delimiter: [
+This is a constant: 1
+Delimiter: ]
+Operator: =
+This is a constant: 2
+Delimiter: ;
+(Non token) Newline
+This is an dentifier: a
+Delimiter: [
+This is an dentifier: t1
+Delimiter: ]
+Operator: =
+This is a constant: 3
+Delimiter: ;
+(Non token) Newline
+This is an dentifier: t2
+Operator: =
+Operator: -
+Delimiter: (
+This is an dentifier: a
+Delimiter: [
+This is a constant: 2
+Delimiter: ]
+Operator: +
+This is an dentifier: t1
+Operator: *
+This is a constant: 6
+Delimiter: )
+Operator: /
+Delimiter: (
+This is an dentifier: a
+Delimiter: [
+This is a constant: 2
+Delimiter: ]
+Operator: -
+This is an dentifier: t1
+Delimiter: )
+Delimiter: ;
+(Non token) Newline
+Keyword: if
+(Non token) Single Space
+This is an dentifier: t2
+Operator: >
+This is a constant: 5
+(Non token) Newline
+Keyword: then
+(Non token) Single Space
+Keyword: print
+Delimiter: (
+This is an dentifier: t2
+Delimiter: )
+Delimiter: ;
+(Non token) Newline
+Keyword: else
+(Non token) Single Space
+Delimiter: {
+(Non token) Newline
+Keyword: int
+(Non token) Single Space
+This is an dentifier: t3
+Delimiter: ;
+(Non token) Newline
+This is an dentifier: t3
+Operator: =
+This is a constant: 99
+Delimiter: ;
+(Non token) Newline
+This is an dentifier: t2
+Operator: =
+Operator: -
+This is a constant: 25
+Delimiter: ;
+(Non token) Newline
+Keyword: print
+Delimiter: (
+Operator: -
+This is an dentifier: t1
+Operator: +
+This is an dentifier: t2
+Operator: *
+This is an dentifier: t3
+Delimiter: )
+Delimiter: ;
+(Non token) Single Space
+(Non token) Comment: /* this is a comment on 2 lines */
+(Non token) Newline
+Delimiter: }
+(Non token) Newline
+Keyword: endif
+(Non token) Single Space
+(Non token) Single Space
+Delimiter: }

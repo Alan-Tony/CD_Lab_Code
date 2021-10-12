@@ -1,0 +1,46 @@
+
+Example 1
+
+E=TR
+R=+TR|#
+T=FY
+Y=*FY|#
+F=(E)|i
+
+Example 2 (Rubbish)
+
+S=ABC|#|+BD
+B=#|#
+C=SA
+
+Example 3
+
+S=aBDh
+B=cC
+C=bC|#
+D=EF
+E=g|#
+F=f|#
+
+Example 4
+
+S=(S)|#
+
+Example 5
+
+S=aABb
+A=aAc|#
+B=bB|c
+
+Example 6
+
+P={T}
+T=ST|#
+S=i^E;|f(E)S
+E=iF
+F=+E|-E|#
+
+Example 7
+S -> AaAb | BbBa
+A -> #
+B -> #

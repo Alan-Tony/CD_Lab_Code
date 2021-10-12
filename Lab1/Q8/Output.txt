@@ -1,0 +1,38 @@
+Delimiter: {
+(Non token) Newline
+Keyword: int
+(Non token) Single Space
+Ientifier: a
+Delimiter: [
+Constant: 3
+Delimiter: ]
+Delimiter: ,
+Ientifier: t1
+Delimiter: ,
+Ientifier: t2
+Delimiter: ;
+(Non token) Newline
+(Non token) Single Space
+Ientifier: t1
+Operator: =
+Constant: 2
+Delimiter: ;
+(Non token) Newline
+Ientifier: a
+Delimiter: [
+Constant: 0
+Delimiter: ]
+Operator: =
+Constant: 1
+Delimiter: ;
+(Non token) Newline
+Ientifier: abc
+Delimiter: [
+Constant: 1
+Delimiter: ]
+Operator: =
+Constant: 2
+Delimiter: ;
+(Non token) Newline
+Identifier "abcd" exceeds maximum length 3.
+Aborting...

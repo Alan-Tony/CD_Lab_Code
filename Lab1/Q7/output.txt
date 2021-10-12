@@ -1,0 +1,41 @@
+
+Lexical analysis:
+
+Delimiter: {
+(Not a token) New line
+Keyword: int
+(Not a token) Single space
+Identifier: a
+Delimiter: [
+Constant: 3
+Delimiter: ]
+Delimiter: ,
+Identifier: t1
+Delimiter: ,
+Identifier: t2
+Delimiter: ;
+(Not a token) New line
+(Not a token) Single space
+Identifier: t1
+Operator: =
+Constant: 2
+Delimiter: ;
+(Not a token) New line
+Identifier: a
+Delimiter: [
+Constant: 0
+Delimiter: ]
+Operator: =
+Constant: 1
+Delimiter: ;
+(Not a token) New line
+Identifier: abc
+Delimiter: [
+Constant: 1
+Delimiter: ]
+Operator: =
+Constant: 2
+Delimiter: ;
+(Not a token) New line
+Identifier "abcd" exceeds maximum length of: 3
+Aborting...

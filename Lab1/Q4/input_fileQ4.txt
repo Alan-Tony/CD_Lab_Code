@@ -1,0 +1,6 @@
+Hello   This
+is       a test
+program with a    lot
+of   charecters
+in   different 
+lines

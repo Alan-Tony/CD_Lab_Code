@@ -1,0 +1,122 @@
+
+Lexical analysis:
+
+Delimiter: {
+(Not a token) New line
+Keyword: int
+(Not a token) Single space
+Identifier: a
+Delimiter: [
+Constant: 3
+Delimiter: ]
+Delimiter: ,
+Identifier: t1
+Delimiter: ,
+Identifier: t2
+Delimiter: ;
+(Not a token) New line
+Identifier: t1
+Operator: =
+Constant: 2
+Delimiter: ;
+(Not a token) New line
+Identifier: a
+Delimiter: [
+Constant: 0
+Delimiter: ]
+Operator: =
+Constant: 1
+Delimiter: ;
+(Not a token) New line
+Identifier: a
+Delimiter: [
+Constant: 1
+Delimiter: ]
+Operator: =
+Constant: 2
+Delimiter: ;
+(Not a token) New line
+Identifier: a
+Delimiter: [
+Identifier: t1
+Delimiter: ]
+Operator: =
+Constant: 3
+Delimiter: ;
+(Not a token) New line
+Identifier: t2
+Operator: =
+Operator: -
+Delimiter: (
+Identifier: a
+Delimiter: [
+Constant: 2
+Delimiter: ]
+Operator: +
+Identifier: t1
+Operator: *
+Constant: 6
+Delimiter: )
+Operator: /
+Delimiter: (
+Identifier: a
+Delimiter: [
+Constant: 2
+Delimiter: ]
+Operator: -
+Identifier: t1
+Delimiter: )
+Delimiter: ;
+(Not a token) New line
+Keyword: if
+(Not a token) Single space
+Identifier: t2
+Operator: >
+Constant: 5
+(Not a token) New line
+Keyword: then
+(Not a token) Single space
+Keyword: print
+Delimiter: (
+Identifier: t2
+Delimiter: )
+Delimiter: ;
+(Not a token) New line
+Keyword: else
+(Not a token) Single space
+Delimiter: {
+(Not a token) New line
+Keyword: int
+(Not a token) Single space
+Identifier: t3
+Delimiter: ;
+(Not a token) New line
+Identifier: t3
+Operator: =
+Constant: 99
+Delimiter: ;
+(Not a token) New line
+Identifier: t2
+Operator: =
+Operator: -
+Constant: 25
+Delimiter: ;
+(Not a token) New line
+Keyword: print
+Delimiter: (
+Operator: -
+Identifier: t1
+Operator: +
+Identifier: t2
+Operator: *
+Identifier: t3
+Delimiter: )
+Delimiter: ;
+(Not a token) Single space
+(Not a token) Valid multi-line comment detected
+(Not a token) New line
+Delimiter: }
+(Not a token) New line
+Keyword: endif
+(Not a token) Single space
+Delimiter: }

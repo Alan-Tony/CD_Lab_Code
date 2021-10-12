@@ -1,0 +1,41 @@
+    productions.push_back("E=TX");
+    productions.push_back("X=+TX");
+    productions.push_back("X=#");
+    productions.push_back("T=FY");
+    productions.push_back("Y=*FY");
+    productions.push_back("Y=#");
+    productions.push_back("F=i");
+    productions.push_back("F=(E)");
+
+
+    non_term.push_back('E');
+    non_term.push_back('X');
+    non_term.push_back('T');
+    non_term.push_back('Y');
+    non_term.push_back('F');
+    num_non_term = non_term.size();
+
+    //We are not including non_terminal vector
+    term.push_back('i');
+    term.push_back('(');
+    term.push_back(')');
+    term.push_back('+');
+    term.push_back('*');
+    term.push_back('$');
+    num_term = term.size();
+
+    first = new vector<char>[non_term.size()];
+    follow = new vector<char>[non_term.size()];
+
+    first[0] = vector<char>({ 'i', '('});
+    first[1] = vector<char>({ '+', '#' });
+    first[2] = vector<char>({ 'i', '('});
+    first[3] = vector<char>({ '*', '#'});
+    first[4] = vector<char>({ 'i', '('});
+
+
+    follow[0] = vector<char>({ '$', ')'});
+    follow[1] = vector<char>({ '$', ')'});
+    follow[2] = vector<char>({ '+', '$', ')'});
+    follow[3] = vector<char>({ '+', '$', ')'});
+    follow[4] = vector<char>({ '*', '+', '$', ')'});
