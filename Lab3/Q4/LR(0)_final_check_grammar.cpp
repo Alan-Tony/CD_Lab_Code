@@ -19,7 +19,7 @@ void acceptProductions(){
 
     vector<bool> visited(256, false);
 
-    ifstream infile("input_productions1.txt");
+    ifstream infile("input_productions.txt");
 
     string prod, curr_prod;
     bool rhs;
@@ -407,7 +407,7 @@ void check_string()
     /*string buffer="aabb$";
     string temp="";*/
     string temp="";
-    cout<<"enter the input string: ";
+    cout<<"\nEnter the input string: ";
     cin>>buffer;
     buffer.push_back('$');
     i=0;
