@@ -122,13 +122,13 @@ void mergetable(vector<vector<int>> dup,int num_of_term,int num_of_non_term){
                 for(unsigned q=0; q<row.size(); q++){
 
                     auto entry = row[q];
-                    if(entry[0] == 's' && (int)(entry[1] - 48) > x){
+                    if(entry[0] == 's' && stoi(entry.substr(1)) > x){
 
-                        parse_table[p][q][1] = (char)(entry[1] - 1);
+                        parse_table[p][q] = "s" + to_string(stoi(entry.substr(1)) - 1);
                     }
-                    else if(isdigit(entry[0]) && (int)(entry[0] - 48) > x){
+                    else if(isdigit(entry[0]) && stoi(entry.substr(1)) > x){
 
-                        parse_table[p][q][0] = (char)(entry[0] - 1);
+                        parse_table[p][q] = to_string(stoi(entry.substr(1)) - 1);
                     }
                 }
             }
