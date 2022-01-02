@@ -1,2 +1,3 @@
-# CD_Lab_Code
-Compiler Design Lab (CS305)
+# Compiler Design Lab (CS305)
+
+Code for parsers along with lex and flex exercises
